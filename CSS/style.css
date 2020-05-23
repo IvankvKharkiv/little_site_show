@@ -149,7 +149,7 @@ h1, h3{
 }
 
 .main_content_about{
-    width: 500px;
+    max-width: 500px;
 }
 
 .calc_screen{
