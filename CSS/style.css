@@ -20,7 +20,7 @@ h1, h3{
     flex-direction: column;
     flex: 1;
     /*border: 2px solid red;*/
-    height: 250px;
+    height: 300px;
     justify-content: space-evenly;
     align-items: center;
 }
