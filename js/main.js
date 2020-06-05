@@ -174,7 +174,7 @@ function funcShowPic(){
     Site_Headers.style.display='none';
 }
 function funcReturnText(){
-    Site_Middle_Part.style.display='flex';
+    Site_Middle_Part.style.display='block';
     Site_Right_Part.style.display='flex';
     Site_Left_Menu.style.alignItems ='center';
     Site_Headers.style.display='block';
