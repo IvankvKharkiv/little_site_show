@@ -1,13 +1,25 @@
+
 body{
-    background-image: url("https://ivankvkharkiv.github.io/little_site_show/images/background.png");
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-repeat: repeat;
     height: 100vh;
 }
 
-h1, h3{
+h1, h2, h3{
     text-align: center;
 }
+
+a:link{
+    color: rgb(46, 71, 17);
+}
+a:visited{
+    color: rgb(21, 74, 78);
+}
+a:hover{
+    color: salmon;
+}
+
 
 table{
     padding: 0px;
@@ -34,6 +46,7 @@ tr{
 }
 
 
+
 .site_container{
     display: flex;
     flex-wrap: wrap;
@@ -58,9 +71,9 @@ tr{
     /*justify-content: space-evenly;*/
     backdrop-filter: blur(4px);
     padding: 10px;
-    border-radius: 20px; 
+    border-radius: 20px;
+    
 }
-
 .box_right_info{
     flex: 1;
     /*border: 2px solid yellow;*/
@@ -90,7 +103,7 @@ tr{
 }
 
 .box_middle_paragraphs p{
-    margin-top: 0.22em;
+    margin-top: 0.2em;
     margin-bottom: 0em;
 }
 
@@ -156,6 +169,13 @@ tr{
     font-size: 1.2em;
     font-weight: bold;
     outline: none;
+    transition-duration: 500ms;
+}
+
+.btn_open:hover{
+    background-color: rgb(125, 114, 128);
+    box-shadow: 5px 5px rgba(137, 135, 138, 0.589);
+    cursor: grab;
 }
 
 
@@ -167,7 +187,15 @@ tr{
     font-size: 1em;
     font-weight: bold;
     outline: none;
+    transition-duration: 500ms
 }
+
+.btn_show_pic:hover{
+    background-color: rgb(125, 114, 128);
+    box-shadow: 5px 5px rgba(137, 135, 138, 0.589);
+    cursor: grab;
+}
+
 
 .main_content_calc{
     display: flex;
@@ -199,6 +227,8 @@ tr{
     padding: 1px;
     flex-direction: column;
 }
+
+
 .button_column1{
     display: flex;
     height: 206px;
